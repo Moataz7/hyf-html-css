@@ -1,0 +1,32 @@
+1.  Research how to create a hidden file and how to display it using ls command? 
+
+Files starting with a dot are by default hidden. You can create it simply by
+
+touch .Testfile.txt
+
+Anyone will still be able to see it using
+
+ls -a 
+
+
+2. Research how to create multiple nested directories with one mkdir command.
+
+mkdir parent\child1\child2\child3\child4
+
+
+3. Verify number of characters in the file.
+
+31 fun
+
+31 Bytes
+
+
+4. I try alot of things but not working for example:
+
+echo "test" > fun
+echo -e "another test" >> fun
+
+echo "test" > fun
+echo -en "another test" >> fun
+
+maybe we can use print command.
