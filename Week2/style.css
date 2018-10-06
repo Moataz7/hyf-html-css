@@ -1,0 +1,217 @@
+/*mobile screen Extra-small */
+@media screen and (max-width: 414px) {
+    h1 {
+        font-size: 3em;
+        text-align: center;
+        background-color: darkgrey;
+        color:white;
+    }
+    h2{
+        font-size: 2rem;
+        margin-left: 2em;
+    }
+    #grid-floats .grid-item {
+    float: left ;
+    inline-size: 49%;
+    vertical-align: text-top;
+    height:450px;
+    overflow: auto;
+    margin-left: 0 ;
+    }
+    #grid-floats .grid-item:first-child {
+        inline-size:100%;
+    }
+    #grid-floats .grid-item img {
+        inline-size:100%
+    }
+    #grid-floats{
+        margin: 0 auto;
+        text-align: center;
+        border-top: red solid;   
+    }
+    #grid-floats p {
+        text-align: left;
+        padding: 5px;
+        margin-top: 0;
+    }
+    section {
+        float: left;
+        border: red solid;
+    }
+    #grid-flex .grid-item { 
+    inline-size: 49%;
+    }
+    #grid-flex .grid-item:first-child {
+        inline-size:100%;
+    }
+    #grid-flex .grid-item img {
+        inline-size:100%
+    }
+    #grid-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: spacebetween;
+        margin: 0 auto;
+        text-align: center;
+        border-top: red solid;
+    }
+    #grid-flex p {
+        text-align: left;
+        padding: 5px;
+        margin-top: 0;
+    }
+}
+/*Tap screen Medium */
+@media screen and (min-width: 415px) and (max-width: 1024px) {
+    h1 {
+        font-size: 3em;
+        text-align: center;
+        background-color:orangered;
+        color: white;
+    }
+    h2{
+        font-size: 2rem;
+        margin-left: 2em;
+        color: orange;
+    }
+    #grid-floats .grid-item {
+    float: left ;
+    inline-size: 33%;
+    vertical-align: text-top;
+    height: 500px;
+    overflow: auto;
+    margin-left: 0 ;
+    }
+    #grid-floats .grid-item:first-child {
+        inline-size:50%;
+    }
+    #grid-floats .grid-item:nth-child(2) {
+        inline-size:50%;
+    }
+    #grid-floats .grid-item img {
+        inline-size:100%
+    }
+    #grid-floats{
+        margin: 0 auto;
+        text-align: center;
+        border-top: red solid;
+        color: darkred;
+    }
+    #grid-floats p {
+        text-align: left;
+        padding: 5px;
+        margin-top: 0;
+    }
+    section {
+        float: left;
+        border: red solid;
+        }  
+    #grid-flex .grid-item {
+        inline-size: 33%;
+
+        }
+        #grid-flex .grid-item:first-child {
+            inline-size:50%;
+        }
+        #grid-flex .grid-item:nth-child(2) {
+            inline-size:50%;
+        }
+        #grid-flex .grid-item img {
+            inline-size:100%
+        }
+        #grid-flex
+        {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: spacebetween;
+            margin: 0 auto;
+            text-align: center;
+            border-top:red solid;
+            color: darkred;
+        }
+        #grid-flex p {
+            text-align: left;
+            padding: 5px;
+            margin-top: 0;
+        }
+}  
+@media screen and (min-width: 1025px) {
+    h1 {
+        font-size: 3em;
+        text-align: center;
+        background-color: violet;
+        color: white;
+    }
+    h2{
+        font-size: 2rem;
+        margin-left: 2em;
+        color: purple;
+    }
+    #grid-floats .grid-item {
+    float: left ;
+    inline-size: 25%;
+    vertical-align: text-top;
+    height: 500px;
+    overflow: auto;
+    margin-left: 0 ;
+    }
+    #grid-floats .grid-item:first-child {
+        inline-size:50%;
+    }
+    #grid-floats .grid-item:nth-child(2) {
+        inline-size:25%;
+    }
+    #grid-floats .grid-item:nth-child(3) {
+        inline-size:25%;
+    }
+    #grid-floats .grid-item img {
+        inline-size:100%
+    }
+    #grid-floats{
+        margin: 0 auto;
+        text-align: center;
+        border-top: blueviolet solid;
+        color: darkblue;
+    }
+    #grid-floats p {
+        text-align: left;
+        padding: 5px;
+        margin-top: 0;
+    }
+    section {
+        float: left;
+        border: blueviolet solid;
+        }
+    #grid-flex .grid-item {
+        
+        inline-size: 25%;
+    
+        }
+        #grid-flex .grid-item:first-child {
+            inline-size:50%;
+        }
+        #grid-flex .grid-item:nth-child(2) {
+            inline-size:25%;
+        }
+        #grid-flex .grid-item:nth-child(3) {
+            inline-size:25%;
+        }
+        #grid-flex .grid-item img {
+            inline-size:100%
+        }
+        #grid-flex
+        {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: spacebetween;
+            margin: 0 auto;
+            text-align: center;
+            border-top: blueviolet solid;
+            color: darkblue;
+        }
+        #grid-flex p {
+            text-align: left;
+            padding: 5px;
+            margin-top: 0;
+        }
+}
